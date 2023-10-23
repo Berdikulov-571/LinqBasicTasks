@@ -102,6 +102,20 @@
                 Console.WriteLine(i);
             }
         }
+
+        public static void Task11(int number)
+        {
+            List<int> myNumbers = new List<int> { 2, 24, 23, 23, 624, 2, 34, 64, 35, 2, 33, 6, 23, 62, 4, 62, 34, 43, 64, 34, 23, 36, 43, 63, 4, 23, 4, 23 };
+
+            myNumbers.Sort();
+
+            var res = myNumbers.Take(number);
+
+            foreach (var i in res)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
     class Task5
     {
