@@ -156,6 +156,17 @@
                 Console.WriteLine(i);
             }
         }
+
+        public static void Task20(List<char> chars)
+        {
+            chars.RemoveAt(3);
+
+            foreach (var i in chars)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
     }
     class Task5
     {
