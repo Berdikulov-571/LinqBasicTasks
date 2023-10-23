@@ -116,6 +116,18 @@
                 Console.WriteLine(i);
             }
         }
+
+        public static void Task12(List<string> words)
+        {
+            var res = words.Select(x => x.ToUpper());
+
+            foreach (var i in res)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
+
     }
     class Task5
     {
