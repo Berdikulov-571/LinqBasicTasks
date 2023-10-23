@@ -2,7 +2,7 @@
 
 namespace ForHomeWorks
 {
-    public static class AllMethods
+    public partial class AllMethods
     {
         public static void Task1(List<int> numbers)
         {
