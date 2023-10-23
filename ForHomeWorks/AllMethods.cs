@@ -127,7 +127,15 @@
             }
         }
 
+        public static void Task17(List<char> chars)
+        {
+            var res = chars.Where(x => x.ToString().ToLower() != "o").ToList();
 
+            foreach (var i in res)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
     class Task5
     {
