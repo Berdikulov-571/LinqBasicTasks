@@ -1,4 +1,6 @@
-﻿namespace ForHomeWorks
+﻿using System.Runtime.InteropServices;
+
+namespace ForHomeWorks
 {
     public static class AllMethods
     {
@@ -167,6 +169,15 @@
             }
         }
 
+        public static void Task21(List<char> chars)
+        {
+            chars.RemoveAll(x => x != chars.FirstOrDefault() && x != chars.LastOrDefault());
+
+            foreach (var i in chars)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
     class Task5
     {
