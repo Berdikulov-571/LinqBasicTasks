@@ -178,6 +178,13 @@ namespace ForHomeWorks
                 Console.WriteLine(i);
             }
         }
+
+        public static void Task22(List<string> chars)
+        {
+            var resultString = chars.Max(x => x);
+
+            Console.WriteLine(resultString);
+        }
     }
     class Task5
     {
