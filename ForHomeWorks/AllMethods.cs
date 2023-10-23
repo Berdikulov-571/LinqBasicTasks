@@ -146,6 +146,16 @@
                 Console.WriteLine(i);
             }
         }
+
+        public static void Task19(List<char> chars)
+        {
+            var res = chars.Where(x => x.ToString().ToLower() != "q").ToList();
+
+            foreach (var i in res)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
     class Task5
     {
